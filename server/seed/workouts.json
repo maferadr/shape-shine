@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Abs Workout.",
+        "duration": 30,
+        "description": "7/Plank - 7/Mountain Climbers - 7/Roll-Ups - 7/Biclycles."
+    },
+    {
+        "name": "Leg Workout.",
+        "duration": 90,
+        "description": "Romanian Deadlift - Squat - Leg Press - Lunge - Leg Curl."
+    },
+    {
+        "name": "Upper-Body Workout.",
+        "duration": 60,
+        "description": "Biceps Curl - Overhead Press - Pushup - Bent over Row - Bench Press."
+    },
+    {
+        "name": "Cardio - Running.",
+        "duration": 40,
+        "description": "Squat Jump - Jogging in Place - Burpee - Jumping Jack."
+    }
+]
