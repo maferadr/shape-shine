@@ -16,6 +16,7 @@
   "dependencies": {
     "aws-sdk": "^2.1659.0",
     "if-env": "^1.0.4",
+    "jwt-decode": "^4.0.0",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
