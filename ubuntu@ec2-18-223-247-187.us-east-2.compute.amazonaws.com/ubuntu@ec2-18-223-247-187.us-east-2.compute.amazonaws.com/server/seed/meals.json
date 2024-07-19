@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Breakfast",
+        "description": "Starting with some Mushroom hash with poached eggs to Healthy porridge bowl. Join us for More! ",
+        "time": 11
+    },
+    {
+        "name": "Lunch",
+        "description": "Going from some Lightened-Up Stuffed Peppers to Crispy Chili-Lime Chickpea Salad. Join us for More!",
+        "time": 15
+    },
+    {
+        "name": "Dinner",
+        "description": "Recipes to delight your paladar with some Baked Salmon recipes and much more. Join us for More!",
+        "time": 20
+    }
+]

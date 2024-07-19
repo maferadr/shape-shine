@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-img{
+  width: 100vw;
+  height: 70vh;
+}
+
+.text-cover, #navbar, .navbar{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#navbar:hover{
+  border-bottom: 1px solid white;
+}
+
+.text-cover{
+  font-size: 4vw;
+  line-height: 1;
+}
+
+.logo{
+  height: 10vh;
+  width: 10vw;
+  margin-top: 5%;
+}
+
+.title-name{
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5vw;
+}
+
+.title-1, .title-2{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vw;
+  line-height: 1;
+}
+
+.title-2{
+  font-size: 3vw;
+  opacity: 0.6;
+}
+
+.workout-title{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  font-size: 3.5vw;
+}
+
+.paragraph, .workout-description, .footer-1, .footer-2{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0.6;
+}
+
+.triangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.triangle svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 107px;
+}
+
+.triangle .shape-fill {
+  fill: orange;
+}
+
+.black-triangle .shape-fill{
+  fill: black;
+}
+
+.black-triangle:hover {
+  display: block;
+  cursor: pointer;
+}
+
+.bg-workouts{
+  background-color: orange;
+}
+
+.img-workout, .meal-img{
+  height: 55vh;
+  width: 100vw;
+}
+
+.login-img{
+  height: 35vh;
+  width: 100vw;
+}
+
+.gradient-black{
+  height: 55vh;
+  width: 100%;
+  position: absolute;
+  justify-content: end;
+  align-items: end;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.478), rgba(255, 255, 255, 0));
+  opacity: 0.8;
+}
+
+.footer{
+  border-top: 1px solid rgba(255, 255, 255, 0.386);
+  line-height: 1;
+}
+
+.footer-1{
+  font-size: 3.5vw;
+  color: orange;
+  opacity: 0.8;
+}
+
+.btn-login, .message, .error-message{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.error-message{
+  color: red;
+}
+
+.btn-login:hover{
+  background-color: white;
+  color: black;
+}
+
+
+@media (min-width: 992px){
+
+  .logo{
+    height: 10vh;
+    width: 5vw;
+    margin-top: 2%;
+  }
+
+  .paragraph{
+    font-size: 1.5vw;
+    line-height: 1;
+  }
+
+  .triangle svg{
+    height: 133px;
+  }
+
+  .img-workout{
+    width: 25vw;
+  }
+
+  .meal-img{
+    width: 31vw;
+  }
+
+  .gradient-black{
+    width: 25vw;
+  }
+
+  .workout-title{
+    font-size: 2vw;
+  }
+
+  .footer-1{
+    font-size: 1.5vw;
+  }
+
+  .login-img{
+    float: left;
+    height: 100vh;
+    width: 35vw;
+  }
+
+  .login-gradient{
+    height: 100vh;
+  }
+}
